@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club</title>
+    <link rel="icon" href="../img/favicon.jpg" type="image/icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class=" navbar navbar-expand-lg navbar-light anav1">
+        <img src="./img/logo.png" class="navbar-brand" width="250" height="100">
+        <!-- for hamburger icon -->
+        <button class="navbar-toggler" data-bs-target="#demo" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse justify-content-center" id="demo">
+            <ul class="navbar-nav nav-pills">
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page">Home</a>
+			</li>
+		<div class="dropdown">
+  			<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    			Books Collections
+ 			</button>
+  		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="./pages/Books.html">English</a></li>
+            <li><a class="dropdown-item" href="./pages/mbooks.html">Myanmar</a></li> 
+  		
+		</div>
+					<!--end dropdown-->
+			
+			<li class="nav-item">
+				<a class="nav-link" href="./pages/cm.html">Club</a>
+			</li>
+            <li class="nav-item">
+				<a class="nav-link" href="./pages/aboutus.html">About Us</a>
+			</li>
+             <div>
+        <li class="nav-item" id="ali1">
+                <a class="nav-link" href="./pages/sign_in.html">Sign In/Up</a>
+            </li> 
+    </div>
+    <form class="search-form">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button type="submit" class="search-button">Search</button>
+    </form></ul>
+    </nav>
+   
+
+    <!-- Hero section with background image -->
+    <header class="hero text-center text-white">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto title">
+                    <h1 class="display-4">Welcome to The Kung Fu's <br> Book Club</h1>
+                    <p class="lead">Explore, Discuss, and Share Your Love for Books</p>
+                    <a href="./pages/sign_in.html" class="btn btn-dark btn-lg">Join Now</a>
+                 <br><br>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us section -->
+    <section class="about-us py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Acknowledgement</h2>
+                    <p class="ap">Dear Readers and Fellow Book Enthusiasts,
+                    this is where the love of books unites us all! We're thrilled that you've stopped by to learn more about our passionate community of readers and the story behind our book club. Our book club is driven by a dedicated team of book lovers who are committed to creating a nurturing and engaging environment. We're united by our shared belief in the power of books to educate, inspire, and unite people. We invite you to explore our club. Registration is free, and you'll instantly gain access to a world of literature and camaraderie. Thank you for taking the time to get to know us. We look forward to sharing the joy of reading and exploring the wonderful world of books together. Happy reading!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/photo.jpg" alt="image" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+        <div class="fhead">
+            <h2 class="aheading">Famous Authors</h2>
+        </div>
+        <div class="acontainer0">
+            <div class="acards">
+                <div class="acard-img">
+                    <img src="./img/author.jpg" alt="pic" class="aimg0">
+                </div> 
+                <div class="acard-body">
+                    <h4>J.K. Rowling</h4>
+                    <p>Famous for the "Harry Potter" series, J.K. Rowling remained a prominent author. She has also written under the pseudonym Robert Galbraith for the Cormoran Strike series. (seven books published between 1997 and 2007). As of 2022, J.K. Rowling's net worth is an estimated £820 million, or around $1.1 billion, per The Sunday Times. J.K. Rowling first had the idea for Harry Potter while delayed on a train travelling from Manchester to London King's Cross in 1990. Over the next five years, she began to plan out the seven books of the series. </p>
+                </div>
+               
+            </div>
+            <div class="acontainer0">
+            <div class="acards">
+                <div class="acard-img">
+                    <img src="./img/author1.jpg" alt="pic" class="akaimg1">
+                </div>
+                <div class="acard-body">
+                    <h4>Stephen King</h4>
+                    <p>A prolific author of horror, supernatural fiction, and suspense novels. His works have been adapted into numerous films and TV series. Probably the most recognizable author living today, King has written 63 novels, 120 short stories, 20 novellas, and five non-fiction books. Many of his stories have been adapted into some of Hollywood's greatest hits, such as The Shining, Misery, The Shawshank Redemption, and It. There is no clear front-running candidate who bumps Stephen King from the top position of “the list.” </p>
+                </div>
+                
+            </div>
+            <div class="acontainer0">
+            <div class="acards">
+                <div class="acard-img">
+                    <img src="./img/author2.jpg" alt="pic" class="aimg2">
+                </div>
+                <div class="acard-body">
+                    <h4>Haruki Murakami</h4>
+                    <p>A celebrated Japanese author known for his surreal and imaginative novels, including "Kafka on the Shore" and "1Q84." Haruki Murakami, (born January 12, 1949, Kyōto, Japan), Japanese novelist, short-story writer, and translator whose deeply imaginative and often ambiguous books became international best sellers.His novels deal with issues such as identity, culture, alienation, and the search for meaning in life. Haruki Murakami is a bestselling author known for his use of magical realism
+</p>
+                </div>
+
+            
+            </div>
+        </div>
+        
+    </section>
+    <div class="fhead">
+        <h2 class="aheading">Popular Books</h2>
+    </div>
+    <div class="atdiv2">
+        <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+        <main id="carousel">
+            <div class="item"><img src="./img/book1.jpg" alt="pic" class="aimage"></div>
+            <div class="item"><img src="./img/book2.jpg" alt="pic" class="aimage"></div>
+            <div class="item"><img src="./img/book3.jpg" alt="pic" class="aimage"></div>
+            <div class="item"><img src="./img/book4.jpg" alt="pic" class="aimage"></div>
+            <div class="item"><img src="./img/book5.jpg" alt="pic" class="aimage"></div>
+      <main>
+    </div>
+       <!-- Footer -->
+       <div class="hfooter">
+        <div class="hcol-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="../pages/aboutus.html">About</a>
+              <a href="../pages/Books.html">English</a>
+              <a href="../pages/mbooks.html">Myanmar</a>
+              <a href="../pages/cm.html">Club</a>
+              <a href="../pages/sign_in.html">Sign In/Up</a>
+        </div>
+          <div class="hcol-2">
+              <h3>NEWSLETTER</h3>
+              <form class="hform">
+                  <input type="email" placeholder="Your Email Address" class="hinput">
+                  <br>
+                  <button type="submit" class="hbutton">SUBSCRIBE</button>
+              </form>
+          </div>
+            <div class="hcol-3">
+                <h3>CONTACT</h3>
+                <p>Kung Fu's pages</p>
+                <div class="hsocial-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    
+                </div>
+                
+            </div>
+</div>
+</body>
+</html>
